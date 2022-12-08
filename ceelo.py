@@ -1,7 +1,8 @@
-#Filippos Athanasopoulos Antyras , A.M. 5113
-import random
 
-print("  ______   ________  ________  __        ______\n"+
+import random
+from termcolor import colored
+
+name = ("  ______   ________  ________  __        ______\n"+
 " /      \ |        \|        \|  \      /      \ \n"+
 "|  $$$$$$\| $$$$$$$$| $$$$$$$$| $$     |  $$$$$$\ \n" +
 "| $$   \$$| $$__    | $$__    | $$     | $$  | $$\n"+
@@ -10,6 +11,8 @@ print("  ______   ________  ________  __        ______\n"+
 "| $$__/  \| $$_____ | $$_____ | $$_____| $$__/ $$\n"+
 " \$$    $$| $$     \| $$     \| $$     \\$$    $$\n"+
 "  \$$$$$$  \$$$$$$$$ \$$$$$$$$ \$$$$$$$$ \$$$$$$\n")
+
+print (colored(name , "green"))
 
 
 players = input("Enter the number of players (between 2 to 6): ")
